@@ -1,0 +1,8 @@
+{
+	"name": "bundle-bug-repro",
+	"version": "1.0.0",
+	"author": "Ícaro C. Capobianco",
+	"devDependencies": {
+		"typescript": "^4.5.4"
+	}
+}

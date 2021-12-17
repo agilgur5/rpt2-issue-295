@@ -1,0 +1,12 @@
+{	"name": "some-package",
+	"version": "1.0.0",
+	"author": "Ícaro C. Capobianco",
+	"scripts": {
+		"build": "microbundle index.ts -o bundle.js --target node --format cjs --generateTypes false --sourcemap false --tsconfig tsconfig.json"
+	},
+    "devDependencies": {
+		"microbundle": "^0.14.2",
+		"typescript": "^4.5.4",
+		"bundle-bug-repro": "workspace:^1.0.0"
+	}
+}
