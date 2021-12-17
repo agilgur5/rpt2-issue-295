@@ -17,7 +17,7 @@ You should get this:
 
 ```
 
-(babel plugin) SyntaxError: C:\Users\icaro\Desktop\code\asas-workspace\workspaces\bundle-bug-repro\modules\code.ts: Unexpected token, expected "," (2:38)
+(babel plugin) SyntaxError: absolute-path-to\bundle-bug-repro\modules\code.ts: Unexpected token, expected "," (2:38)
 
   1 |
 > 2 | export default ( someTypescriptSyntax : string ) => {
