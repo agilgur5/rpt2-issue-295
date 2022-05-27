@@ -5,18 +5,15 @@ https://github.com/developit/microbundle/issues/808
 
 Steps to repro:
 
-1 - Well, clone this repo...
-
-2 - Install pnpm on your machine if you don't have it
-
-3 - Use pnpm to install dependencies by running `pnpm install` at the root of this project (you only need to do this once, the package dependencies will also be installed)
-
-4 - Now go to the package under packages/some-package and run `pnpm build`
+1. Clone this repo
+1. Install `pnpm` if you don't have it: `npm install -g pnpm`
+1. `pnpm install` at the root of this project
+1. `cd packages/some-package && pnpm install`
+1. `pnpm build`
 
 You should get this:
 
-```
-
+```txt
 (babel plugin) SyntaxError: absolute-path-to\bundle-bug-repro\modules\code.ts: Unexpected token, expected "," (2:38)
 
   1 |
@@ -24,7 +21,4 @@ You should get this:
     |                                       ^
   3 |     return someTypescriptSyntax
   4 | }
-
 ```
-
-
