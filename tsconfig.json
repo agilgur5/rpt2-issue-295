@@ -6,55 +6,18 @@
 		"outDir": "lib",
 		"module": "ESNext",
 		"moduleResolution": "node",
-		/* Save .tsbuildinfo files to allow for incremental compilation of projects. */
-		"incremental": false,
 		"declaration": true,
 		"inlineSourceMap": true,
-		/* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
-		"esModuleInterop": true,
-		"allowSyntheticDefaultImports": true,
-		/* Include modules imported with .json extension. */
-		"resolveJsonModule": true,
-
-		/* Enable all strict type-checking options. */
-		"strict": true,
-
-		/* Strict Type-Checking Options */
-		// "noImplicitAny": true /* Raise error on expressions and declarations with an implied 'any' type. */,
-		// "strictNullChecks": true /* Enable strict null checks. */,
-		// "strictFunctionTypes": true /* Enable strict checking of function types. */,
-		// "strictPropertyInitialization": true /* Enable strict checking of property initialization in classes. */,
-		// "noImplicitThis": true /* Raise error on 'this' expressions with an implied 'any' type. */,
-		// "alwaysStrict": true /* Parse in strict mode and emit "use strict" for each source file. */,
-
+		"esModuleInterop": true, /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+		"resolveJsonModule": true, /* Include modules imported with .json extension. */
+		"strict": true, /* Enable all strict type-checking options. */
 		/* Additional Checks */
-		/* Report errors on unused locals. */
-		"noUnusedLocals": false,
-		/* Report errors on unused parameters. */
-		"noUnusedParameters": true,
-		/* Report error when not all code paths in function return a value. */
-		"noImplicitReturns": true,
-		/* Report errors for fallthrough cases in switch statement. */
-		"noFallthroughCasesInSwitch": true,
-		/* Add undefined to a type when accessed using an index. */
-		"noUncheckedIndexedAccess": true,
-		/* Ensure that casing is correct in imports. */
-		"forceConsistentCasingInFileNames": true,
-
-		/* Debugging Options */
-		/* Report module resolution log messages. */
-		"traceResolution": false,
-		/* Print names of generated files part of the compilation. */
-		"listEmittedFiles": false,
-		/* Print names of files part of the compilation. */
-		"listFiles": false,
-		/* Stylize errors and messages using color and context. */
-		"pretty": true,
-
-		/* Experimental Options */
-		// "experimentalDecorators": true /* Enables experimental support for ES7 decorators. */,
-		// "emitDecoratorMetadata": true /* Enables experimental support for emitting type metadata for decorators. */,
-
+		"noUnusedLocals": false, /* Report errors on unused locals. */
+		"noUnusedParameters": true, /* Report errors on unused parameters. */
+		"noImplicitReturns": true, /* Report error when not all code paths in function return a value. */
+		"noFallthroughCasesInSwitch": true, /* Report errors for fallthrough cases in switch statement. */
+		"noUncheckedIndexedAccess": true, /* Add undefined to a type when accessed using an index. */
+		"forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
 		"lib": ["ESNext", "DOM", "DOM.Iterable"],
 		"typeRoots": ["node_modules/@types", "modules/types"],
 		"baseUrl": "./",
@@ -62,8 +25,7 @@
 			"bundle-bug-repro/*" : ["./*"]
 		},
 		"types": ["node"],
-		// react
-		"jsx": "react-jsx",
+		"jsx": "react-jsx", // react
 		"skipLibCheck": true
 	},
 	"include": ["modules/**/*", "workspaces/**/*", "packages/**/*", "projects/**/*"],
