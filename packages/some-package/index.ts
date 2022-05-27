@@ -1,1 +1,1 @@
-export * from 'bundle-bug-repro/modules/code'
+export { default } from 'bundle-bug-repro/modules/code'
