@@ -4,7 +4,8 @@
 	"author": "Ícaro C. Capobianco",
 	"scripts": {
 		"build": "microbundle index.ts -o bundle.js --target node --format cjs --generateTypes false --sourcemap false --tsconfig tsconfig.json",
-		"tsc": "tsc"
+		"tsc": "tsc",
+		"rollup": "rollup -c"
 	},
 	"devDependencies": {
 		"microbundle": "^0.14.2",
