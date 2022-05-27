@@ -25,6 +25,5 @@
 		"skipLibCheck": true
 	},
 	"include": ["modules/**/*", "workspaces/**/*", "packages/**/*", "projects/**/*"],
-	"exclude": ["node_modules"],
 	"compileOnSave": false
 }

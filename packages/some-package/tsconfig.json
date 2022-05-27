@@ -4,6 +4,5 @@
 		"lib": ["ESNext", "DOM", "DOM.Iterable"],
 		"typeRoots": ["node_modules/@types", "modules/types", "node_modules/sdkco/modules/types"],
 	},
-	"include": ["modules/**/*"],
-	"exclude": ["node_modules"]
+	"include": ["modules/**/*", "index.ts"],
 }
