@@ -20,10 +20,6 @@
 		"forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
 		"lib": ["ESNext", "DOM", "DOM.Iterable"],
 		"typeRoots": ["node_modules/@types", "modules/types"],
-		"baseUrl": "./",
-		"paths": {
-			"bundle-bug-repro/*" : ["./*"]
-		},
 		"types": ["node"],
 		"jsx": "react-jsx", // react
 		"skipLibCheck": true

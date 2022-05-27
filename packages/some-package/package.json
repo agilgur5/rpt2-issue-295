@@ -3,7 +3,8 @@
 	"version": "1.0.0",
 	"author": "Ícaro C. Capobianco",
 	"scripts": {
-		"build": "microbundle index.ts -o bundle.js --target node --format cjs --generateTypes false --sourcemap false --tsconfig tsconfig.json"
+		"build": "microbundle index.ts -o bundle.js --target node --format cjs --generateTypes false --sourcemap false --tsconfig tsconfig.json",
+		"tsc": "tsc"
 	},
 	"devDependencies": {
 		"microbundle": "^0.14.2",

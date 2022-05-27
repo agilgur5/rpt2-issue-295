@@ -3,10 +3,6 @@
 	"compilerOptions": {
 		"lib": ["ESNext", "DOM", "DOM.Iterable"],
 		"typeRoots": ["node_modules/@types", "modules/types", "node_modules/sdkco/modules/types"],
-		"baseUrl": "./",
-		"paths": {
-			"bundle-bug-repro/*" : ["node_modules/bundle-bug-repro/modules/*"]
-		}
 	},
 	"include": ["modules/**/*"],
 	"exclude": ["node_modules"]
